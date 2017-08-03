@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="polytechnic.temasek.bluebeatsmusicapplication.activitygalore.HomePageActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/bluebeatsbackground2">
+
+        <TextView
+            android:id="@+id/toolbartitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Home"
+            android:textColor="@android:color/white"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+    </android.support.v7.widget.Toolbar>
+
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="539dp"
+        >
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="All Languages"
+                    android:textColor="@android:color/black"
+                    android:textSize="32sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.501"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.016" />
+
+                <Button
+                    android:id="@+id/button2"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="170dp"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="513dp"
+                    android:elevation="0dp"
+                    android:text="See All"
+                    android:textSize="20sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="152dp"
+                    android:layout_height="151dp"
+                    android:text="Button"
+                    tools:layout_editor_absoluteX="-158dp"
+                    tools:layout_editor_absoluteY="-239dp" />
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="168dp"
+                    android:layout_height="173dp"
+                    android:text="Button"
+                    tools:layout_editor_absoluteX="227dp"
+                    tools:layout_editor_absoluteY="83dp" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="173dp"
+                    android:layout_height="168dp"
+                    android:text="Button"
+                    tools:layout_editor_absoluteX="30dp"
+                    tools:layout_editor_absoluteY="291dp" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="152dp"
+                    android:layout_height="151dp"
+                    android:text="Button"
+                    tools:layout_editor_absoluteX="-146dp"
+                    tools:layout_editor_absoluteY="-248dp" />
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="162dp"
+                    android:layout_height="165dp"
+                    android:text="Button"
+                    tools:layout_editor_absoluteX="30dp"
+                    tools:layout_editor_absoluteY="102dp" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mood"
+                    android:textSize="32sp"
+                    tools:layout_editor_absoluteX="-127dp"
+                    tools:layout_editor_absoluteY="0dp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Genres"
+                    android:textSize="32sp"
+                    tools:layout_editor_absoluteX="-142dp"
+                    tools:layout_editor_absoluteY="-180dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="844dp"
+                    android:text="Mood"
+                    android:textColor="@android:color/black"
+                    android:textSize="32sp"
+                    android:textStyle="bold"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="580dp"
+                    android:fontFamily="sans-serif"
+                    android:text="Genres"
+                    android:textColor="@android:color/black"
+                    android:textSize="32sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    app:layout_constraintHorizontal_bias="0.501"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="152dp"
+                    android:layout_height="151dp"
+                    android:text="Button"
+                    tools:layout_editor_absoluteX="-163dp"
+                    tools:layout_editor_absoluteY="-210dp" />
+
+                <Button
+                    android:id="@+id/button_Metal"
+                    android:layout_width="152dp"
+                    android:layout_height="151dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="643dp"
+                    android:background="@drawable/editedmetalmusic"
+                    android:elevation="24dp"
+                    android:onClick="handleSelection"
+                    app:layout_constraintHorizontal_bias="0.524"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="152dp"
+                    android:layout_height="151dp"
+                    android:text="Button"
+                    tools:layout_editor_absoluteX="388dp"
+                    tools:layout_editor_absoluteY="655dp" />
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="152dp"
+                    android:layout_height="151dp"
+                    android:text="Button"
+                    tools:layout_editor_absoluteX="590dp"
+                    tools:layout_editor_absoluteY="563dp" />
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="152dp"
+                    android:layout_height="151dp"
+                    android:text="Button"
+                    tools:layout_editor_absoluteX="194dp"
+                    tools:layout_editor_absoluteY="897dp" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="1070dp"
+                    android:text="Listening History"
+                    android:textColor="@android:color/black"
+                    android:textSize="32sp"
+                    android:textStyle="bold"
+                    app:layout_constraintHorizontal_bias="0.501"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:id="@+id/button_Japanese"
+                    android:layout_width="169dp"
+                    android:layout_height="172dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="291dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:elevation="20dp"
+                    android:onClick="handleSelection"
+                    android:padding="0dp"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintHorizontal_bias="0.964"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/japanese_song" />
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="183dp"
+                    android:layout_height="182dp"
+
+                    android:padding="0dp"
+                    android:scaleType="centerCrop"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="634dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    app:layout_constraintHorizontal_bias="0.024"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/metal_music" />
+
+
+            </android.support.constraint.ConstraintLayout>
+
+        </ScrollView>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/the_bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:background="@color/colorPrimary"
+        app:itemBackground="@color/colorPrimary"></android.support.design.widget.BottomNavigationView>
+
+
+</LinearLayout>

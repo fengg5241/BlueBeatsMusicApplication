@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="polytechnic.temasek.bluebeatsmusicapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activitygalore.HomePageActivity" />
+        <activity android:name=".activitygalore.GenreSelectionActivity" />
+        <activity android:name=".activitygalore.LanguageActivity" />
+        <activity android:name=".activitygalore.DiscoverActivity" />
+        <activity
+            android:name=".activitygalore.SearchActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".activitygalore.LibraryActivity" />
+        <activity android:name=".activitygalore.ProfileActivity" />
+        <activity
+            android:name=".activitygalore.LoginActivity"
+            android:label="@string/title_activity_second_home_page">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activitygalore.PlaySongActivity" />
+        <activity android:name=".activitygalore.SecondHomePage" />
+        <activity android:name=".activitygalore.RegisterActivity" />
+        <activity android:name=".UtilityClasses.ListViewItems" />
+        <activity android:name=".activitygalore.Settings" />
+        <activity android:name=".subpages.PlaylistPage" />
+        <activity android:name=".subpages.AllLanguageActivity" />
+        <activity android:name=".subpages.SongPage" />
+        <activity android:name=".subpages.AlbumPage" />
+        <activity android:name=".subpages.ArtistPage" />
+        <activity android:name=".subpages.ListeningHistory" />
+        <activity android:name=".activitygalore.MoodSelection" />
+        <activity android:name=".subpages.ArtistInfoActivity" />
+        <activity android:name=".subpages.DisplayAlbumSongs"></activity>
+    </application>
+
+</manifest>
